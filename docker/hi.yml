@@ -1,0 +1,12 @@
+generate a simple python file that prints "Hello, World!"
+# This file is located at: docker/hi.yml
+version: '3.8'
+services:
+  hi:
+    image: python:3.9-slim
+    container_name: hi_container
+    volumes:
+      - ../db:/app/db
+    working_dir: /app/db
+    command: python hell.py
+    restart: unless-stopped
