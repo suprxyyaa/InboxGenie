@@ -1,0 +1,2 @@
+# Placeholder frontend dependencies
+streamlit==1.25.0
