@@ -1,3 +1,11 @@
-# Placeholder dependencies
-fastapi==0.95.0
-uvicorn[standard]==0.22.0
+fastapi
+uvicorn[standard]
+sqlmodel
+sqlalchemy
+python-dotenv
+passlib[bcrypt]
+python-jose
+google-api-python-client
+google-auth
+google-auth-oauthlib
+requests

@@ -1,3 +1,6 @@
-# write a code for hello world in python
-def hello_world():
-    return "Hello, World!"
+import streamlit as st
+
+def show():
+    st.sidebar.title("InboxGenie")
+    page = st.sidebar.radio("Navigate", ["Dashboard", "Emails", "Settings"])
+    return page
